@@ -13,7 +13,7 @@
 <div class="error">
     <h2>Oops</h2>
     <p>{message}</p>
-    <a href="/guides">View all Guides..</a>
+    <a href="/giveaways">View all Giveaways..</a>
 </div>
 
 <style>

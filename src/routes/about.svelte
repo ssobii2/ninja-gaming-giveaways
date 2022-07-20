@@ -8,7 +8,7 @@
     aliquam incidunt, consequuntur eos, esse id quo autem mollitia tenetur
     tempore! Saepe consequatur, suscipit ab sequi cum unde deleniti blanditiis?
   </p>
-  <a href="/guides">View Guides</a>
+  <a href="/giveaways">View Giveaways</a>
   <a href="/">Home</a>
 </div>
 

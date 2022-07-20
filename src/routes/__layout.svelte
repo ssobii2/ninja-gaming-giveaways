@@ -5,14 +5,14 @@
 
 <header>
   <nav>
-    <Title title="Ninja Gaming Guides" />
+    <Title title="Ninja Gaming Giveaways" />
   </nav>
 </header>
 <main>
   <slot />
 </main>
 <footer>
-  <p>Copyright 2022 Ninja Gaming Guides</p>
+  <p>Copyright 2022 Ninja Gaming Giveaways</p>
 </footer>
 
 <style>
@@ -28,5 +28,6 @@
 
   footer {
     text-align: center;
+    margin-top: 70px;
   }
 </style>

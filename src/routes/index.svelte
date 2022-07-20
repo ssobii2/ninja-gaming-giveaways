@@ -8,7 +8,7 @@
     impedit assumenda itaque rerum dignissimos! Unde, dolorem modi? Beatae
     cupiditate eveniet facere deleniti quos accusantium, soluta earum neque.
   </p>
-  <a href="/guides">View Guides</a>
+  <a href="/giveaways">View Giveaways</a>
   <a href="/about">About</a>
 </div>
 

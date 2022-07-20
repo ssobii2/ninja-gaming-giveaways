@@ -1,41 +1,40 @@
 <script context="module">
   export async function load({fetch}) {
-    await new Promise(resolve => setTimeout(resolve, 1000));
     const res = await fetch('https://www.gamerpower.com/api/giveaways');
-    const guides = await res.json();
+    const giveaways = await res.json();
 
     if (res.ok) {
       return {
         props: {
-          guides
+          giveaways
         }
       };
     } else {
       return {
         status: res.status,
-        error: new Error('Failed to fetch guides')
+        error: new Error('Failed to fetch giveaways')
       };
     }
   }
 </script>
 
 <script>
-  export let guides;
+  export let giveaways;
 </script>
 
-<div class="guides">
+<div class="giveaways">
   <ul>
-    {#each guides as guide}
+    {#each giveaways as giveaway}
       <li>
-        <img width="280px" height="200px" src={guide.thumbnail} alt="thumbnail">
-        <a sveltekit:prefetch href={`/guides/${guide.id}`}>{guide.title}</a>
+        <img width="280px" height="200px" src={giveaway.thumbnail} alt="thumbnail">
+        <a sveltekit:prefetch href={`/giveaways/${giveaway.id}`}>{giveaway.title}</a>
       </li>
     {/each}
   </ul>
 </div>
 
 <style>
-  .guides {
+  .giveaways {
     margin-top: 20px;
   }
   ul {
