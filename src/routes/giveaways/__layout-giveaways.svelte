@@ -30,6 +30,13 @@
           <a href="/giveaways">All Platforms</a>
         </ul>
       </div>
+      <div>
+        <ul>
+          <a href="/giveaways/type/game">Game</a>
+          <a href="/giveaways/type/loot">Loot/DLC</a>
+          <a href="/giveaways/type/beta">Beta</a>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
