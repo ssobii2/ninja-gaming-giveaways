@@ -4,9 +4,7 @@
 <div class="index">
   <h2>Welcome</h2>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem est neque sunt
-    impedit assumenda itaque rerum dignissimos! Unde, dolorem modi? Beatae
-    cupiditate eveniet facere deleniti quos accusantium, soluta earum neque.
+    PLEASE USE ALLOW CORS EXTENSION TO SHOW THE GAMES FROM THE API.
   </p>
   <a href="/giveaways">View Giveaways</a>
   <a href="/about">About</a>
