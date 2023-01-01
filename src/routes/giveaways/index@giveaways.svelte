@@ -1,6 +1,8 @@
 <script context="module">
   export async function load({fetch}) {
-    const res = await fetch('https://www.gamerpower.com/api/giveaways');
+    const res = await fetch('https://www.gamerpower.com/api/giveaways', {
+      headers: {"Access-control-allow-origin": "*"}
+    });
     const giveaways = await res.json();
 
     if (res.ok) {
